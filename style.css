@@ -1,0 +1,538 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-container{
+    background-color: #0F1624;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80rem;
+}
+nav{
+    justify-content: space-evenly;
+    background-color: #0F1624;
+    padding: 25px 35px;
+    /* drop shadow https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
+    color: white;
+    display: flex;
+    z-index: 1;
+    cursor: pointer;
+}
+nav p{
+    color: white;
+}
+nav p:hover{
+    color: papayawhip;
+}
+.fa-house:hover{
+    color: papayawhip;
+}
+nav p{
+    font-weight: bold;
+    padding: 0 35px;
+    font-size: 1.2rem;
+}
+.nav-flex-end{
+
+    display: flex;
+}
+.fa-house{
+    flex-direction: row;
+    display: flex;
+    font-size: 1.5rem;
+}
+.info-header{
+    font-size: 3.3rem;
+    font-weight: bolder;
+}
+.persoonlijk-info{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.beschrijving{
+    display: flex;
+    width: 580px;
+    padding: 9px 0;
+}
+h2{
+    padding: 1px 0;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+.skills-layout{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.skills-layout .photoshop a{
+    display: flex;
+    height: 0.5rem;
+    width: 3rem;
+    color: black;
+    margin: 0 auto;
+    background-color: rgba(252, 231, 126, 1);
+    border-radius: 25px;
+}
+
+.skills-layout2{
+    color: white;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.full-screen h3{
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 0.9rem;
+    font-size: 1.5rem;
+}
+.photoshop{
+    width: 450px;
+    height: 520px;
+    background-color: #0F1624;
+    padding: 5px;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+}
+.photoshop img{
+    border-radius: 25px;
+    width: 100%;
+}
+.photoshop h1{
+    color: lightblue;
+}
+.photoshop button{
+    display: flex;
+    cursor:  pointer;
+    margin: 5rem auto;
+    background-color: lightblue;
+    padding: 9px 15px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.photoshop p{
+    padding-top: 1rem;
+    text-align: center;
+}
+.photoshop{
+    width: 450px;
+    height: 520px;
+    background-color: #0F1624;
+    padding: 5px;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+}
+.illustrator{
+    width: 450px;
+    height: 520px;
+    background-color: #0F1624;
+    padding: 5px;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+}
+.illustrator img{
+    border-radius: 25px;
+    width: 100%;
+}
+.illustrator h1{
+    color: darkorange;
+}
+.illustrator button{
+    display: flex;
+    cursor:  pointer;
+    margin: 5rem auto;
+    background-color: darkorange;
+    padding: 9px 15px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.illustrator p{
+    padding-top: 1rem;
+    text-align: center;
+}
+.illustrator{
+    width: 450px;
+    height: 520px;
+    background-color: #0F1624;
+    padding: 5px;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+}
+.skills-layout .illustrator a{
+    display: flex;
+    height: 0.5rem;
+    width: 3rem;
+    color: black;
+    margin: 0 auto;
+    background-color: rgba(252, 231, 126, 1);
+    border-radius: 25px;
+}
+.after{
+    width: 450px;
+    height: 520px;
+    background-color: #0F1624;
+    padding: 5px;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+}
+.after img{
+    border-radius: 25px;
+    width: 100%;
+}
+.after h1{
+    color: blue;
+}
+.after button{
+    display: flex;
+    cursor:  pointer;
+    margin: 5rem auto;
+    background-color: blue;
+    padding: 9px 15px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.after p{
+    padding-top: 1rem;
+    text-align: center;
+}
+.after{
+    width: 450px;
+    height: 520px;
+    background-color: #0F1624;
+    padding: 5px;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+}
+.skills-layout2 .after a{
+    display: flex;
+    height: 0.5rem;
+    width: 3rem;
+    color: black;
+    margin: 0 auto;
+    background-color: rgba(252, 231, 126, 1);
+    border-radius: 25px;
+}
+.skills-header{
+    display: flex;
+    font-weight: bold;
+    color: white;
+    font-size: 2.9rem;
+}
+
+.rode-bar{
+    display: flex;
+    background: rgb(185,16,251);
+    background: linear-gradient(90deg, rgba(185,16,251,1) 0%, rgba(0,219,255,1) 100%); /* gradiant https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient*/
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+    height: 10px;
+}
+.rode-bar3{
+    display: flex;
+    background: rgb(185,16,251);
+    background: linear-gradient(90deg, rgba(185,16,251,1) 0%, rgba(0,219,255,1) 100%);
+    border: none;
+    width: 320px;
+    border-radius: 5px;
+    height: 10px;
+}
+
+.bold{
+    display: flex;
+    justify-content: center;
+    padding: 9px;
+    font-size: 2.4rem;
+    letter-spacing: .3rem;  /* letter spacing https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing*/
+}
+.contact{
+    display: flex;
+    color: #0F1624;
+    flex-direction: column;
+}
+.contact h2{
+    font-size: 2.9rem;
+    display: flex;
+    color: white;
+}
+.contact-submit{
+    text-decoration: none;
+    color: white;
+    background-color: #0F1624;
+    border: none;
+    display: flex;
+    width: 10rem;
+    margin-top: 35px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#popup1 img{
+    width: 50%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+}
+#popup2 img{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+}
+#popup3 img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+}
+.rode-bar2{
+    display: flex;
+    background: rgb(185,16,251);
+    background: linear-gradient(90deg, rgba(185,16,251,1) 0%, rgba(0,219,255,1) 100%);
+    border: none;
+    width: 330px;
+    border-radius: 5px;
+    height: 10px;
+}
+form{
+    padding: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+form label{
+    margin: 20px 0;
+}
+::placeholder{          /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder*/
+    color: white;
+    font-size: 2.0rem;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+form label{
+    background-color: white;
+}
+#email{
+    display: flex;
+    background-color: #0F1624;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 56.25rem;
+    height: 6.25rem;
+}
+#name{
+    display: flex;
+    background-color: #0F1624;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 56.25rem;
+    height: 6.25rem;
+}
+
+.reflectie__wpl{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 55px;
+}
+.reflectie__wpl h2{
+    font-size: 2.9rem;
+    display: flex;
+    color: white;
+}
+.reflectie__wpl p {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+.reflectie__wpl a{
+    text-decoration: none;
+    color: white;
+    background-color: #0F1624;
+    display: flex;
+    padding: 4px;
+    margin-top: 3rem;
+    justify-content: center;
+    width: 9rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer p{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3rem
+}
+footer p:hover{
+    color: #483D8B;
+}
+.main__copyright{
+    display: flex;
+    color: white;
+    height: 7rem;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+    background-color: #0F1624;
+}
+.fixed-home{
+    position: fixed;
+    background-color: rgba(0,219,255,1);
+    top: 47rem;
+    right: 3rem;
+    z-index: 1;
+    padding: 1rem;
+    rotate: -90deg;
+}
+@media screen and (max-width: 65rem){
+    .persoonlijk-info{
+        margin-left: 1rem;
+    }
+    .skills-layout{
+        margin: 0 auto;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .skills{
+        margin: 0 1rem;
+    }
+    .contact{
+        margin: 0 1rem;
+        width: 35rem;
+    }
+    .contact-submit{
+        width: 10rem;
+        font-size: 1.6rem;
+    }
+    #name #email{
+        width: 2rem;
+    }
+    .photoshop{
+        margin-bottom: 4rem;
+    }
+    .reflectie__wpl{
+        margin: 0 1rem;
+    }
+    .reflectie__wpl p{
+        font-size: 1rem;
+    }
+    .fixed-home{
+        top: 45rem;
+    }
+}
+@media screen and (max-width: 40rem){
+    .skills-layout{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .info-header{
+        font-size: 2.3rem;
+    }
+    .rode-bar{
+        align-items: center;
+    }
+    .contact{
+        width: 25rem;
+    }
+    form{
+        width: 5rem;
+    }
+    #name{
+        padding: 0;
+        width: 29rem;
+        height: 4rem;
+    }
+    #email{
+        width: 29rem;
+        height: 4rem;
+    }
+    .persoonlijk-info{
+        margin-left: 1rem;
+    }
+    .beschrijving{
+        display: flex;
+        width: 30rem;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 30rem){
+    nav p{
+        font-size: 0.8rem;
+    }
+    .beschrijving{
+        width: 24rem;
+    }
+    form{
+        width: 5rem;
+    }
+    .skills-layout{
+        width: 5rem;
+    }
+    input{
+        width: 3rem;
+    }
+    #name{
+        padding: 0;
+        width: 22rem;
+        height: 4rem;
+    }
+    #email{
+        width: 22rem;
+        height: 4rem;
+    }
+
+}
+.full-screen {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.9);
+    border-radius: 35px;
+}
+
+.full-screen{
+    color: white
+}
+
+.verstopt {
+    display: none;
+}
