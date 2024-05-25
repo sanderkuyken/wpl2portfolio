@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0F1624;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80rem;
+}
+header{
+    max-width: 80rem;
+}
+.gradiant-bar{
+    display: flex;
+    background: rgb(185,16,251);
+    background: linear-gradient(90deg, rgba(185,16,251,1) 0%, rgba(0,219,255,1) 100%);
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    height: 10px;
+}
+header h1{
+    font-size: 3.3rem;
+    font-weight: bolder;
+    color: white;
+}
+.main__projecten1{
+    background: url("achtergrond-css/personal_branding.jpg");
+    background-size: cover;
+    height: 20rem;
+    margin: 5rem 0;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main__projecten1 a{
+    margin-top: 8rem;
+    display: flex;
+    padding: 0.7rem;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0F1624;
+    width: 10rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.main__projecten1 h1{
+    margin-bottom: 10rem;
+    color: white;
+    display: flex;
+
+}
+
+.main__projecten2{
+    background: url("achtergrond-css/kernwaarden.jpg");
+    background-size: cover;
+    height: 20rem;
+    margin: 5rem 0;
+    filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main__projecten2 a{
+    margin-top: 8rem;
+    display: flex;
+    padding: 0.7rem;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0F1624;
+    width: 10rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.main__projecten2 h1{
+    margin-bottom: 10rem;
+    color: white;
+    display: flex;
+
+}
+@media screen and (max-width: 65rem) {
+    .main__projecten1{
+        background-size: 55rem 15rem; /*https://www.w3schools.com/cssref/css3_pr_background-size.php*/
+        background-repeat: no-repeat;
+        margin-left: 1rem;
+    }
+    .main__projecten1 a{
+        position: relative;
+        right: 10rem;
+        bottom: 2rem;
+    }
+    .main__projecten2{
+        background-size: 55rem 15rem; /*https://www.w3schools.com/cssref/css3_pr_background-size.php*/
+        background-repeat: no-repeat;
+        margin-left: 1rem;
+    }
+    .main__projecten2 a{
+        position: relative;
+        display: inline-block;
+        right: 10rem;
+        bottom: 2rem;
+    }
+    header{
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width: 40rem){
+    .main__projecten1{
+        background-size: 32rem 15rem; /*https://www.w3schools.com/cssref/css3_pr_background-size.php*/
+        background-repeat: no-repeat;
+        margin-left: 1rem;
+    }
+    .main__projecten1 a{
+        position: relative;
+        right: 23rem;
+        bottom: 2rem;
+        justify-content: flex-start;
+    }
+    .main__projecten2{
+        background-size: 32rem 15rem; /*https://www.w3schools.com/cssref/css3_pr_background-size.php*/
+        background-repeat: no-repeat;
+        margin-left: 1rem;
+    }
+    .main__projecten2 a{
+        position: relative;
+        right: 23rem;
+        bottom: 2rem;
+    }
+    header{
+        margin-left: 2rem;
+    }
+}
