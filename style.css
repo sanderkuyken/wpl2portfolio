@@ -30,22 +30,13 @@ nav p{
 nav p:hover{
     color: papayawhip;
 }
-.fa-house:hover{
-    color: papayawhip;
-}
 nav p{
     font-weight: bold;
     padding: 0 35px;
     font-size: 1.2rem;
 }
 .nav-flex-end{
-
     display: flex;
-}
-.fa-house{
-    flex-direction: row;
-    display: flex;
-    font-size: 1.5rem;
 }
 .info-header{
     font-size: 3.3rem;
@@ -93,7 +84,7 @@ h2{
     padding-top: 55px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    margin: 0 auto;
 }
 .full-screen h3{
     display: flex;
@@ -322,6 +313,15 @@ h2{
     border-radius: 5px;
     height: 10px;
 }
+.rode-bar4{
+    display: flex;
+    background: rgb(185,16,251);
+    background: linear-gradient(90deg, rgba(185,16,251,1) 0%, rgba(0,219,255,1) 100%);
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    height: 10px;
+}
 form{
     padding: 30px 0;
     display: flex;
@@ -420,6 +420,37 @@ footer p:hover{
     padding: 1rem;
     rotate: -90deg;
 }
+.wpl2-case h2 {
+    font-size: 2.9rem;
+    display: flex;
+    color: white;
+}
+.wpl2-case h1{
+    color: white;
+}
+.mail-icon{
+    color: white;
+}
+.fa-solid{
+    font-size: 2rem;            // https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+}
+.fa-brands{
+    font-size: 2rem;
+}
+.iconen{
+    display: flex;
+    width: 5rem;
+    justify-content: space-evenly;
+}
+.wpl2-case li{
+    color: white;
+}
+.wpl2-case ol{
+    margin-bottom: 1rem;
+}
+.case-documentatie{
+    color: white;
+}
 @media screen and (max-width: 65rem){
     .persoonlijk-info{
         margin-left: 1rem;
@@ -433,8 +464,7 @@ footer p:hover{
         margin: 0 1rem;
     }
     .contact{
-        margin: 0 1rem;
-        width: 35rem;
+        display: block;
     }
     .contact-submit{
         width: 10rem;
@@ -457,6 +487,10 @@ footer p:hover{
     }
 }
 @media screen and (max-width: 40rem){
+    nav p{
+        font-size: 1rem;
+        padding: 0 15px;
+    }
     .skills-layout{
         flex-direction: column;
         align-items: center;
@@ -495,6 +529,7 @@ footer p:hover{
 @media screen and (max-width: 30rem){
     nav p{
         font-size: 0.8rem;
+        padding: 0 5px;
     }
     .beschrijving{
         width: 24rem;
