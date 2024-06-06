@@ -12,7 +12,7 @@ main{
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    max-width: 80rem;
+    max-width: 100rem;
 }
 nav{
     justify-content: space-evenly;
@@ -176,9 +176,10 @@ h2{
     background-color: rgba(252, 231, 126, 1);
     border-radius: 25px;
 }
+
 .after{
-    width: 450px;
-    height: 520px;
+    max-width: 35%;
+    margin: 0 auto;
     background-color: #0F1624;
     padding: 5px;
     border-radius: 25px;
@@ -206,22 +207,13 @@ h2{
     text-align: center;
 }
 .after{
-    width: 450px;
-    height: 520px;
+    width: 100%;
     background-color: #0F1624;
     padding: 5px;
     border-radius: 25px;
     filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
 }
-.skills-layout2 .after a{
-    display: flex;
-    height: 0.5rem;
-    width: 3rem;
-    color: black;
-    margin: 0 auto;
-    background-color: rgba(252, 231, 126, 1);
-    border-radius: 25px;
-}
+
 .skills-header{
     display: flex;
     font-weight: bold;
@@ -334,28 +326,21 @@ form label{
 ::placeholder{          /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder*/
     color: white;
     font-size: 2.0rem;
-    padding-left: 15px;
-    display: flex;
-    justify-content: flex-start;
-}
-form label{
-    background-color: white;
+;
 }
 #email{
     display: flex;
     background-color: #0F1624;
     border-radius: 25px;
     border: 1px solid white;
-    width: 56.25rem;
-    height: 6.25rem;
+    padding: 1.5rem;
 }
 #name{
     display: flex;
     background-color: #0F1624;
     border-radius: 25px;
     border: 1px solid white;
-    width: 56.25rem;
-    height: 6.25rem;
+    padding: 1.5rem;
 }
 
 .reflectie__wpl{
@@ -379,13 +364,9 @@ form label{
     color: white;
     background-color: #0F1624;
     display: flex;
-    padding: 4px;
-    margin-top: 3rem;
-    justify-content: center;
-    width: 9rem;
+    margin: 1.5rem 0;
     font-size: 1.7rem;
     font-weight: bold;
-    border-radius: 15px;
 }
 footer{
     display: flex;
@@ -448,17 +429,24 @@ footer p:hover{
 .wpl2-case ol{
     margin-bottom: 1rem;
 }
-.case-documentatie{
+.wpl2-case-text{
+    margin: 1rem 0;
+}
+.wpl2-case-text p{
     color: white;
+}
+.case-documentatie p{
+    color: white;
+}
+.wpl2-case-deliver{
+    margin:1rem 0rem;
+}
+.wpl2-case-deliver li{
+    list-style-type: none;
 }
 @media screen and (max-width: 65rem){
     .persoonlijk-info{
         margin-left: 1rem;
-    }
-    .skills-layout{
-        margin: 0 auto;
-        justify-content: space-around;
-        flex-direction: column;
     }
     .skills{
         margin: 0 1rem;
@@ -470,9 +458,7 @@ footer p:hover{
         width: 10rem;
         font-size: 1.6rem;
     }
-    #name #email{
-        width: 2rem;
-    }
+
     .photoshop{
         margin-bottom: 4rem;
     }
@@ -484,6 +470,15 @@ footer p:hover{
     }
     .fixed-home{
         top: 45rem;
+    }
+    .wpl2-case{
+        margin-left: 1rem;
+    }
+    .contact{
+        margin-left: 1rem;
+    }
+    .after{
+        max-width: 100%;
     }
 }
 @media screen and (max-width: 40rem){
@@ -499,24 +494,9 @@ footer p:hover{
     .info-header{
         font-size: 2.3rem;
     }
-    .rode-bar{
-        align-items: center;
-    }
-    .contact{
-        width: 25rem;
-    }
-    form{
-        width: 5rem;
-    }
-    #name{
-        padding: 0;
-        width: 29rem;
-        height: 4rem;
-    }
-    #email{
-        width: 29rem;
-        height: 4rem;
-    }
+
+
+
     .persoonlijk-info{
         margin-left: 1rem;
     }
@@ -524,6 +504,9 @@ footer p:hover{
         display: flex;
         width: 30rem;
         font-size: 0.9rem;
+    }
+    .wpl2-case{
+        margin-right: 1rem;
     }
 }
 @media screen and (max-width: 30rem){
@@ -534,23 +517,18 @@ footer p:hover{
     .beschrijving{
         width: 24rem;
     }
-    form{
-        width: 5rem;
-    }
     .skills-layout{
         width: 5rem;
     }
-    input{
-        width: 3rem;
+
+    .wpl2-case{
+        margin-right: 1rem;
     }
-    #name{
-        padding: 0;
-        width: 22rem;
-        height: 4rem;
+    .rode-bar2{
+        width: auto;
     }
-    #email{
-        width: 22rem;
-        height: 4rem;
+    .rode-bar3{
+        width: auto;
     }
 
 }

@@ -30,19 +30,24 @@ header h1{
     color: white;
 }
 .main__projecten1{
-    background: url("achtergrond-css/personal_branding.jpg");
+    /* The image used */
+    background-image: url("achtergrond-css/personal_branding.jpg");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 20rem;
     margin: 5rem 0;
     filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
-    width: 80rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .main__projecten1 a{
-    margin-top: 8rem;
-    display: flex;
+    margin: 10rem;
     padding: 0.7rem;
     justify-content: center;
     text-decoration: none;
@@ -52,7 +57,10 @@ header h1{
     font-size: 1.7rem;
     font-weight: bold;
     border-radius: 15px;
+    display: flex;
+
 }
+.test
 .main__projecten1 h1{
     margin-bottom: 10rem;
     color: white;
@@ -61,19 +69,24 @@ header h1{
 }
 
 .main__projecten2{
-    background: url("achtergrond-css/kernwaarden.jpg");
+    /* The image used */
+    background-image: url("achtergrond-css/personal_branding.jpg");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 20rem;
     margin: 5rem 0;
     filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 25%));
-    width: 80rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .main__projecten2 a{
-    margin-top: 8rem;
-    display: flex;
+    margin: 10rem;
     padding: 0.7rem;
     justify-content: center;
     text-decoration: none;
@@ -83,6 +96,7 @@ header h1{
     font-size: 1.7rem;
     font-weight: bold;
     border-radius: 15px;
+    display: flex;
 }
 .main__projecten2 h1{
     margin-bottom: 10rem;
@@ -96,22 +110,13 @@ header h1{
         background-repeat: no-repeat;
         margin-left: 1rem;
     }
-    .main__projecten1 a{
-        position: relative;
-        right: 10rem;
-        bottom: 2rem;
-    }
+
     .main__projecten2{
         background-size: 55rem 15rem; /*https://www.w3schools.com/cssref/css3_pr_background-size.php*/
         background-repeat: no-repeat;
         margin-left: 1rem;
     }
-    .main__projecten2 a{
-        position: relative;
-        display: inline-block;
-        right: 10rem;
-        bottom: 2rem;
-    }
+
     header{
         margin-left: 2rem;
     }
@@ -122,22 +127,13 @@ header h1{
         background-repeat: no-repeat;
         margin-left: 1rem;
     }
-    .main__projecten1 a{
-        position: relative;
-        right: 23rem;
-        bottom: 2rem;
-        justify-content: flex-start;
-    }
+
     .main__projecten2{
         background-size: 32rem 15rem; /*https://www.w3schools.com/cssref/css3_pr_background-size.php*/
         background-repeat: no-repeat;
         margin-left: 1rem;
     }
-    .main__projecten2 a{
-        position: relative;
-        right: 23rem;
-        bottom: 2rem;
-    }
+
     header{
         margin-left: 2rem;
     }
