@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #0F1624;
+}
+body{
+    background-color: #0F1624;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80rem;
+}
+header{
+    max-width: 80rem;
+}
+.wpl2-case-deliver h3{
+    color: white;
+    font-size: 2.3rem;
+}
+.wpl2-case-deliver img{
+    width: 100%;
+    height: auto;
+}
+.case-documentatie{
+    margin:2rem 0;
+}

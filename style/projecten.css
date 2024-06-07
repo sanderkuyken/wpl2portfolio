@@ -20,7 +20,7 @@ header{
     background: rgb(185,16,251);
     background: linear-gradient(90deg, rgba(185,16,251,1) 0%, rgba(0,219,255,1) 100%);
     border: none;
-    width: 250px;
+    width: 450px;
     border-radius: 5px;
     height: 10px;
 }
@@ -70,7 +70,7 @@ header h1{
 
 .main__projecten2{
     /* The image used */
-    background-image: url("achtergrond-css/personal_branding.jpg");
+    background-image: url("achtergrond-css/kernwaarden.jpg");
 
     /* Full height */
     height: 100%;
@@ -119,6 +119,9 @@ header h1{
 
     header{
         margin-left: 2rem;
+    }
+    .gradiant-bar{
+        max-width: 100%;
     }
 }
 @media screen and (max-width: 40rem){
