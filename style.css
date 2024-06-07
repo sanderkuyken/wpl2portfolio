@@ -253,8 +253,7 @@ h2{
     cursor: pointer;
 }
 #popup1 img{
-    width: 50%;
-    height: 65%;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,8 +261,7 @@ h2{
     margin: 0 auto;
 }
 #popup2 img{
-    width: 50%;
-    height: 60%;
+
     display: flex;
     justify-content: center;
     align-items: center;
